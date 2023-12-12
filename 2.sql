@@ -1,4 +1,5 @@
 USE dealership;
 
 SELECT * FROM vehicles
-WHERE DealershipID = ;
+JOIN inventory
+WHERE Dealership_ID = 1;
